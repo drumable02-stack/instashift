@@ -31,13 +31,13 @@ types.ts                  # 공용 타입 정의
 
 ## TODO (완성해야 할 부분)
 
-- [ ] `app/api/analyze/route.ts` — GPT-4o vision 호출 로직 완성
-- [ ] `app/api/generate-copy/route.ts` — 카피 생성 로직 완성
-- [ ] `app/api/generate-image/route.ts` — gpt-image-1 edit 호출 로직 완성
-- [ ] `app/api/translate/route.ts` — 4개국어 번역 로직 완성
-- [ ] `app/page.tsx` — 3단계 UI 완성 (현재는 기본 골격만 있음)
-- [ ] 로딩/에러 상태 UI 보강
-- [ ] (선택) 텍스트를 이미지에 합성하는 기능은 v0.2 범위이므로 필요시에만
+- [x] `app/api/analyze/route.ts` — GPT-4o vision 호출 로직 완성
+- [x] `app/api/generate-copy/route.ts` — 카피 생성 로직 완성
+- [x] `app/api/generate-image/route.ts` — gpt-image-1 edit 호출 로직 완성
+- [x] `app/api/translate/route.ts` — 4개국어 번역 로직 완성
+- [x] `app/page.tsx` — 반응형 3단계 UI 완성
+- [x] 로딩/에러 상태 UI 보강
+- [ ] (v0.2) 텍스트를 이미지에 합성하는 기능
 
-각 파일 안에 `// TODO:` 주석으로 구현 지점을 표시해두었습니다.
-프롬프트는 기획서의 "7. 프롬프트 설계 가이드" 섹션을 반드시 참고해서 작성해주세요.
+필수 v0.1 범위는 구현 완료되었습니다. 이미지 안에 텍스트를 합성하는 기능은
+기획 범위에 따라 v0.2로 남겨두었습니다.

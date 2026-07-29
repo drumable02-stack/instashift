@@ -20,3 +20,7 @@ export interface GenerateResult {
   newTextKo: string;
   translations: TranslatedCopy;
 }
+
+export type ApiError = {
+  error: string;
+};
